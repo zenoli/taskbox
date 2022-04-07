@@ -1,141 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Task Archived 1`] = `
-<section
-  class="storybook-snapshot-container"
->
-  <div
-    class="list-item TASK_ARCHIVED"
-  >
-    <label
-      class="checkbox"
-    >
-      <input
-        disabled=""
-        name="checked"
-        type="checkbox"
-      />
-       
-      <span
-        aria-label="archiveTask-1"
-        class="checkbox-custom"
-      />
-    </label>
-     
-    <div
-      class="title"
-    >
-      <input
-        placeholder="Input title"
-        readonly=""
-        type="text"
-      />
-    </div>
-     
-    <div
-      class="actions"
-    />
-  </div>
-</section>
-`;
-
-exports[`Storyshots Task Default 1`] = `
-<section
-  class="storybook-snapshot-container"
->
-  <div
-    class="list-item TASK_INBOX"
-  >
-    <label
-      class="checkbox"
-    >
-      <input
-        disabled=""
-        name="checked"
-        type="checkbox"
-      />
-       
-      <span
-        aria-label="archiveTask-1"
-        class="checkbox-custom"
-      />
-    </label>
-     
-    <div
-      class="title"
-    >
-      <input
-        placeholder="Input title"
-        readonly=""
-        type="text"
-      />
-    </div>
-     
-    <div
-      class="actions"
-    >
-      <a
-        href="/"
-      >
-        <span
-          aria-label="pinTask-1"
-          class="icon-star"
-        />
-      </a>
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Storyshots Task Pinned 1`] = `
-<section
-  class="storybook-snapshot-container"
->
-  <div
-    class="list-item TASK_PINNED"
-  >
-    <label
-      class="checkbox"
-    >
-      <input
-        disabled=""
-        name="checked"
-        type="checkbox"
-      />
-       
-      <span
-        aria-label="archiveTask-1"
-        class="checkbox-custom"
-      />
-    </label>
-     
-    <div
-      class="title"
-    >
-      <input
-        placeholder="Input title"
-        readonly=""
-        type="text"
-      />
-    </div>
-     
-    <div
-      class="actions"
-    >
-      <a
-        href="/"
-      >
-        <span
-          aria-label="pinTask-1"
-          class="icon-star"
-        />
-      </a>
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Storyshots TaskList Default 1`] = `
+exports[`Storyshots PureTaskList Default 1`] = `
 <section
   class="storybook-snapshot-container"
 >
@@ -396,7 +261,7 @@ exports[`Storyshots TaskList Default 1`] = `
 </section>
 `;
 
-exports[`Storyshots TaskList Empty 1`] = `
+exports[`Storyshots PureTaskList Empty 1`] = `
 <section
   class="storybook-snapshot-container"
 >
@@ -434,7 +299,7 @@ exports[`Storyshots TaskList Empty 1`] = `
 </section>
 `;
 
-exports[`Storyshots TaskList Loading 1`] = `
+exports[`Storyshots PureTaskList Loading 1`] = `
 <section
   class="storybook-snapshot-container"
 >
@@ -596,7 +461,7 @@ exports[`Storyshots TaskList Loading 1`] = `
 </section>
 `;
 
-exports[`Storyshots TaskList With Pinned Tasks 1`] = `
+exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
 <section
   class="storybook-snapshot-container"
 >
@@ -854,5 +719,140 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
   </div>
   
   
+</section>
+`;
+
+exports[`Storyshots Task Archived 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+  <div
+    class="list-item TASK_ARCHIVED"
+  >
+    <label
+      class="checkbox"
+    >
+      <input
+        disabled=""
+        name="checked"
+        type="checkbox"
+      />
+       
+      <span
+        aria-label="archiveTask-1"
+        class="checkbox-custom"
+      />
+    </label>
+     
+    <div
+      class="title"
+    >
+      <input
+        placeholder="Input title"
+        readonly=""
+        type="text"
+      />
+    </div>
+     
+    <div
+      class="actions"
+    />
+  </div>
+</section>
+`;
+
+exports[`Storyshots Task Default 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+  <div
+    class="list-item TASK_INBOX"
+  >
+    <label
+      class="checkbox"
+    >
+      <input
+        disabled=""
+        name="checked"
+        type="checkbox"
+      />
+       
+      <span
+        aria-label="archiveTask-1"
+        class="checkbox-custom"
+      />
+    </label>
+     
+    <div
+      class="title"
+    >
+      <input
+        placeholder="Input title"
+        readonly=""
+        type="text"
+      />
+    </div>
+     
+    <div
+      class="actions"
+    >
+      <a
+        href="/"
+      >
+        <span
+          aria-label="pinTask-1"
+          class="icon-star"
+        />
+      </a>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Task Pinned 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+  <div
+    class="list-item TASK_PINNED"
+  >
+    <label
+      class="checkbox"
+    >
+      <input
+        disabled=""
+        name="checked"
+        type="checkbox"
+      />
+       
+      <span
+        aria-label="archiveTask-1"
+        class="checkbox-custom"
+      />
+    </label>
+     
+    <div
+      class="title"
+    >
+      <input
+        placeholder="Input title"
+        readonly=""
+        type="text"
+      />
+    </div>
+     
+    <div
+      class="actions"
+    >
+      <a
+        href="/"
+      >
+        <span
+          aria-label="pinTask-1"
+          class="icon-star"
+        />
+      </a>
+    </div>
+  </div>
 </section>
 `;

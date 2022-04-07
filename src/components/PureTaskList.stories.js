@@ -1,14 +1,13 @@
-import TaskList from './TaskList.svelte';
-
+import PureTaskList from './PureTaskList.svelte';
 import MarginDecorator from './MarginDecorator.svelte';
 
 import * as TaskStories from './Task.stories';
 
 export default {
-  component: TaskList,
+  component: PureTaskList,
   //👇 The auxiliary component will be added as a decorator to help show the UI correctly
   decorators: [() => MarginDecorator],
-  title: 'TaskList',
+  title: 'PureTaskList',
   argTypes: {
     onPinTask: { action: 'onPinTask' },
     onArchiveTask: { action: 'onArchiveTask' },
@@ -16,7 +15,7 @@ export default {
 };
 
 const Template = args => ({
-  Component: TaskList,
+  Component: PureTaskList,
   props: args,
   on: {
     ...TaskStories.actionsData,
