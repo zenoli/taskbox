@@ -16,7 +16,7 @@
     <div class="page lists-show">
       <nav>
         <h1 class="title-page">
-          <span class="title-wrapper">Taskbox</span>
+          <span class="title-wrapper">Taskbox :-)</span>
         </h1>
       </nav>
       <TaskList />
