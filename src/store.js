@@ -27,3 +27,14 @@ const TaskBox = () => {
   };
 };
 export const taskStore = TaskBox();
+
+// Store to handle the app state
+const AppState = () => {
+ const { subscribe, update } = writable(false);
+ return {
+   subscribe,
+   error: () => update(error => !error),
+ };
+};
+
+export const AppStore = AppState();
